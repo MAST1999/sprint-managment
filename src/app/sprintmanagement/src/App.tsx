@@ -1,14 +1,17 @@
-import { Box, Grid, GridItem } from "@chakra-ui/react";
-import "./App.css";
+import { Box } from "@chakra-ui/react";
 
-function App() {
+const App = () => {
   return (
-    <Box>
-      <Grid>
-        <GridItem>Hello There</GridItem>
-      </Grid>
+    <Box
+      w={`100%`}
+      height={`100vh`}
+      display={`flex`}
+      justifyContent={`center`}
+      alignItems={`center`}
+    >
+      Hello There!
     </Box>
   );
-}
+};
 
 export default App;
